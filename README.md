@@ -13,20 +13,28 @@ Anda adalah Mr. Khun, saat ini Anda tergabung bersama tim Sweet & Sour untuk men
 
 ## How To Run
 
-In `src/` folder, run:
-<!---->
-`python3 main.py [path image or text]`
-<!---->
+Run:
+
+```bash
+cd src/
+python3 main.py [path image or text]
+```
+
 Alternative (UNIX only):
 
 1. Make sure python3 installed on `/usr/local/bin/python3`, unless change `main.py` to current python3 folder installed
-2. `chmod +x main.py`
-3. `./main.py [path image or text]`
+2. Run:
+
+```bash
+chmod +x main.py
+./main.py [path image or text]
+```
 
 Example:
-<!---->
-`./main.py ../test/tc1.txt`
-<!---->
+
+```bash
+./main.py ../test/tc1.txt
+```
 
 ## Strategi
 
